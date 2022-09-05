@@ -1,10 +1,12 @@
 <template>
     <div class="conversor">
         <h2>{{moedaA}} Para {{moedaB}}</h2>
-        <input type="text" v-model="moedaA_value" v-bind:placeholder="moedaA">
-        <h2>{{moedaB_value}}</h2>
-        <input type="button" value="Converter" v-on:click="converter">
-    </div>
+        <div class="painel-convert">
+            <input type="text" class="input-convert" v-model="moedaA_value" v-bind:placeholder="moedaA">
+            <button class="btn-convert" v-on:click="converter">Converter <i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+            </div>
+            <h2>{{moedaB_value}}</h2>
+       </div>
 </template>
 
 <script>
@@ -37,9 +39,36 @@ export default {
 
 .conversor {
     max-width: 300px;
-    padding: 20px;
+    padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+    width: 300px;
 }
+
+.painel-convert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-convert {
+    background-color: #2EA62C;
+    width: 150px;
+    height: 50px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+}
+
+.input-convert {
+    height: 38px;
+    width: 240px;
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 700;
+
+    
+}
+
 </style>
 

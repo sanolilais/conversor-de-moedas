@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1 class="name-app">Currency Converter</h1>
     <div class="line">
       <Conversor moeda-a="USD" moeda-b="BRL"  />
       <Conversor moeda-a="BRL" moeda-b="USD"  />
@@ -39,17 +40,23 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #154313;
   margin-top: 60px;
 }
 
 .line {
   display: flex;
-  gap: 60px;
+  gap: 115px;
   justify-content: center;
+  padding: 20px;
 }
+
+.name-app {
+  text-align: center;
+}
+
 </style>
