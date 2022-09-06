@@ -22,7 +22,7 @@ export default {
         methods:{
             converter() {
                 let de_para = this.moedaA + "/" + this.moedaB;
-                let url = "https://v6.exchangerate-api.com/v6/24a2e63f0c67ae921b870560/pair/"+de_para
+                let url = `${process.env.VUE_APP_BASE_URL}/${process.env.VUE_APP_API_KEY}/pair/${de_para}`
 
                 fetch(url).then(res => res.json()
                     .then(json => {

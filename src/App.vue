@@ -34,6 +34,9 @@ export default {
   name: 'App',
   components: {
     Conversor
+  },
+  created() {
+   
   }
 };
 </script>
