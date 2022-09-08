@@ -1,4 +1,4 @@
-# Conversor de moedas
+# Currency Converter
 
 
 #### Essa aplicação faz parte dos meus aprendizados utilizando vue.js. Seguindo um tutorial no youtube, desenvolvi um conversor de moedas que mostra a cotação de valores das seguintes moedas para a moeda brasileira!
