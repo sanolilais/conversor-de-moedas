@@ -1,17 +1,19 @@
-# Currency Converter
+# 💰💰 Currency Converter
 
 
-#### Essa aplicação faz parte dos meus aprendizados utilizando vue.js. Seguindo um tutorial no youtube, desenvolvi um conversor de moedas que mostra a cotação de valores das seguintes moedas para a moeda brasileira!
+#### Description
+
+Currency Converter it's a simple App build with Vue.js where you can convert coin values and entering any amount.
 - [x] BRL 
 - [x] EUR 
 - [x] ARS 
 - [x] JPY
 - [x] CNY 
-- [x] RUB
+- [x] RUB 
 ***
 
-Para realizar essa aplicação utilizei o [Vue CLI](https://cli.vuejs.org/), para fazer as requisições dos valores utilizei a [Exchange Rate API](https://www.exchangerate-api.com/)
+This application use [Vue CLI](https://cli.vuejs.org/), and uses the [Exchange Rate API](https://www.exchangerate-api.com/) to get the coins value
 
-## Print da aplicação
+## Print
  
 ![print conversor](https://user-images.githubusercontent.com/87990551/189192433-09ca9580-22ce-45ae-988e-8e96a71033bd.PNG)
